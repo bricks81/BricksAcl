@@ -1,0 +1,22 @@
+{
+    "name": "bricks81/bricks-acl",
+    "description": "Bricks CMS Framework - Acl Managment",
+    "license": "MIT",
+    "keywords": [
+        "bricks",
+        "acl"
+    ],
+    "homepage": "https://www.bricks-cms.org",
+    "autoload": {
+        "psr-4": {
+            "Bricks\\Acl\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "bricks81/bricks-config": "*",
+       	"bricks81/bricks-loader": "*",
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false    
+}
