@@ -14,8 +14,9 @@
     },
     "require": {
         "php": "^7.0",
+        "zendframework/zend-permissions-acl": "*",
         "bricks81/bricks-config": "*",
-       	"bricks81/bricks-loader": "*",
+       	"bricks81/bricks-loader": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": false    
